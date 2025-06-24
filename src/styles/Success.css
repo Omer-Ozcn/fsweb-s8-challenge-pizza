@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.success-section {
+  background: #ce2829;
+  border-radius: 0.5rem;
+  margin: 2rem auto;
+  max-width: 80vw;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.10);
+}
+
+.success-title {
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.success-message h2 {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 2.5rem;
+}
+
+@media (max-width: 700px) {
+  .success-section {
+    max-width: 98vw;
+    min-height: 40vh;
+    padding: 1rem 0.5rem;
+  }
+  .success-message h2 {
+    font-size: 1.2rem;
+  }
+}
