@@ -1,0 +1,35 @@
+.pizza-options {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.option-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+.option-title {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.required {
+  color: red;
+  margin-left: 4px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+select {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 1rem;
+}

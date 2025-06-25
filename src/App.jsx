@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Home from "./pages/Home";
 import Order from "./pages/Order";
 import Success from "./pages/Success";
-import { Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   const [count, setCount] = useState(0)

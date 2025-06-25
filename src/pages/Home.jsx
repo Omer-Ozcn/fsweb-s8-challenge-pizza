@@ -16,7 +16,7 @@ const Home = () => {
             <h2 className="home-slogan">
               KOD ACIKTIRIR <br /> PİZZA, DOYURUR
             </h2>
-            <button className="order-button" onClick={handleOrderClick}>
+            <button className="home-button" onClick={handleOrderClick}>
               ACIKTIM
             </button>
           </div>
