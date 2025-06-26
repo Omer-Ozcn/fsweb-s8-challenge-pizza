@@ -1,14 +1,13 @@
 import React from "react";
 import "../styles/Header.css";
+import "../../images/iteration-1-images/logo.svg";
+import logo from "../../images/iteration-1-images/logo.svg";
 
 const Header = () => {
     return (
         <header className="header-section">
             <div className="header-container">
-                <h1 className="header-title">Teknolojik Yemekler</h1>
-                <p className="header-subtitle">
-                    <span>Anasayfa</span> - <strong>Sipariş Oluştur</strong>
-                </p>
+                <img src={logo} alt="logo" className="logo" />
             </div>
         </header>
     );

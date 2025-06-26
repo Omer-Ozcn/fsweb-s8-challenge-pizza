@@ -1,34 +1,97 @@
-
 .success-section {
   background-color: #ce2829;
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin: 0;
   padding: 0;
 }
 
+.success-logo-img {
+  margin-top: 50px;
+}
+
 .success-title {
-  color: #fff;
-  font-size: 1.3rem;
-  font-weight: 700;
+  gap: 10px;
+  margin-top: 50px;
   margin-bottom: 200px;
-  letter-spacing: 1px;
   text-align: center;
+}
+
+.success-okey {
+  color: white;
+  font-family: "Roboto Condensed";
+  font-weight: 300;
+  font-size: 86px;
+  line-height: 92px;
+  letter-spacing: 1.5px;
+}
+
+.success-lezzet {
+  color: #FDC913;
+  font-family: 'Satisfy';
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44.27px;
+  letter-spacing: 0%;
 }
 
 .success-message h2 {
-  font-family: 'Roboto Condensed';
+  font-family: 'Barlow';
   color: #FFFFFF;
-  font-size: 86px;
-  font-weight: 300;
-  letter-spacing: 1.5px;
-  line-height: 92px;
+  font-size: 22px;    
+  font-weight: 600;
+  letter-spacing: 0%;
+  line-height: 30px;
   text-align: center;
-  margin: 0;
-  margin-bottom: 100px;
 }
 
+.success-details {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-bottom: 32px;
+  text-align: left;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.success-details p {
+  margin: 12px 0;
+}
+
+
+.success-total-box {
+  border: 1px solid #fff;
+  border-radius: 8px;
+  padding: 24px 32px;
+  color: #fff;
+  max-width: 300px;
+  margin: 70px auto;  
+}
+
+.success-total-title {
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.success-total-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+.same-typography {
+  font-family: 'Barlow';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24.76px;
+  letter-spacing: 0;
+  vertical-align: middle;
+}

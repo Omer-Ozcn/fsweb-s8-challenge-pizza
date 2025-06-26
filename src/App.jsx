@@ -5,17 +5,23 @@ import Success from "./pages/Success";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [orderData, setOrderData] = useState(null);
 
   return (
-    <>
+    <Router>
       <Switch>
-        <Route exact path="/" component={Home} />
-        <Route path="/order" component={Order} />
-        <Route path="/success" component={Success} />
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/order">
+          <Order setOrderData={setOrderData} />
+        </Route>
+        <Route path="/success">
+          <Success orderData={orderData} />
+        </Route>
       </Switch>
-    </>
-  )
+    </Router>
+  );
 }
 
 export default App;

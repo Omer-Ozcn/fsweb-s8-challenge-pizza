@@ -37,7 +37,7 @@ const PizzaOptions = ({ size, setSize, dough, setDough, errors }) => {
             /> Büyük
           </label>
         </div>
-        {errors?.size && <p className="error">{errors.size}</p>}
+        {errors.size && <p className="error">{errors.size}</p>}
       </div>
 
       <div className="option-group">
@@ -50,7 +50,7 @@ const PizzaOptions = ({ size, setSize, dough, setDough, errors }) => {
           <option value="Normal">Normal</option>
           <option value="Kalın">Kalın</option>
         </select>
-        {errors?.dough && <p className="error">{errors.dough}</p>}
+        {errors.dough && <p className="error">{errors.dough}</p>}
       </div>
     </div>
   );
