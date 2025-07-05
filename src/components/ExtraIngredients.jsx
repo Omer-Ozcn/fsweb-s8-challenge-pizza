@@ -7,7 +7,7 @@ const ExtraingredientsList = [
   "Kanada Jambonu", "Domates", "Jalepeno"
 ];
 
-const ExtraIngredients = ({ selected, setSelected }) => {
+const ExtraIngredients = ({ selected, setSelected, error }) => {
   const handleChange = (e) => {
     const value = e.target.value;
     if (selected.includes(value)) {
@@ -35,6 +35,7 @@ const ExtraIngredients = ({ selected, setSelected }) => {
           </label>
         ))}
       </div>
+      {error && <p className="error">{error}</p>}
     </div>
   );
 };

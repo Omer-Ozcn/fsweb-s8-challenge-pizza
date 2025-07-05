@@ -37,3 +37,9 @@
   gap: 5px;
   min-width: 180px;
 }
+
+.extra-ingredients .error {
+  color: red ;
+  font-size: 14px;
+  margin-top: 5px;
+}

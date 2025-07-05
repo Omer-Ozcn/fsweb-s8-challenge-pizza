@@ -35,6 +35,9 @@ const Order = ({ setOrderData }) => {
     return Object.keys(newErrors).length === 0;
   };
 
+  const extraIngredientsPrice = ingredients.length * 5;
+  const totalPrice = 85.50 + extraIngredientsPrice;
+
   useEffect(() => {
     if (!isSubmitting) return;
 
@@ -127,14 +130,14 @@ const Order = ({ setOrderData }) => {
             <h1 className="summary-title">Sipariş Toplamı</h1>
             <div className="summary-row">
               <span className="label">Seçimler</span>
-              <span className="light-value">25.00₺</span>
+              <span className="light-value">{extraIngredientsPrice}₺</span>
             </div>
             <div className="summary-rowb">
               <span className="red-label">Toplam</span>
-              <span className="red-value">110.50₺</span>
+              <span className="red-value">{totalPrice}₺</span>
             </div>
             <div className="order-section">
-              <button type="submit" className="order-buton" disabled={!isFormValid}>
+              <button type="submit" className="order-buton">
                 Sipariş Ver
               </button>
             </div>

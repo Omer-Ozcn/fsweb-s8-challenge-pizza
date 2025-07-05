@@ -121,7 +121,7 @@ body, .order-bg {
   width: 100%;
 }
 
-.errors {
+.error {
   color: red;
   font-size: 14px;
   margin-top: 5px;
