@@ -86,3 +86,61 @@
   background: #181818;
   border-radius: 0 0 8px 8px;
 }
+
+@media (max-width: 600px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 32px;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+  .footer-logo-img {
+    width: 150px;
+    margin: 0 auto 16px;
+    display: block;
+  }
+
+  .footer-info-item {
+    font-size: 14px;
+  }
+
+  .menu-col h3,
+  .insta-col h3 {
+    font-size: 1rem;
+    margin-bottom: 12px;
+  }
+
+  .menu-col ul {
+    padding-left: 0;
+  }
+
+  .menu-col li {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+
+  .footer-insta-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+
+  .footer-insta-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+    text-align: center;
+    font-size: 12px;
+    padding: 16px;
+    margin-top: 16px;
+  }
+  
+}

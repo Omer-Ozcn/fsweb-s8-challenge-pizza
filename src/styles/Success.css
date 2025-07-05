@@ -95,3 +95,100 @@
   letter-spacing: 0;
   vertical-align: middle;
 }
+
+@media (max-width: 600px) {
+  .success-section {
+    width: 100vw;
+    padding: 16px;
+    box-sizing: border-box;
+    min-height: auto;
+    justify-content: flex-start;
+  }
+
+  .success-logo-img {
+      width: 200px;
+      height: auto;
+  }
+
+  .success-title {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    gap: 8px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .success-lezzet {
+    display: block;
+    font-family: 'Satisfy';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #FDC913;
+  }
+
+  .success-okey {
+    display: block;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 1.2px;
+    color: white;
+  }
+
+  .success-message h2 {
+    font-family: 'Barlow';
+    color: #FFFFFF;
+    font-size: 18px; 
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+
+  .success-details {
+    color: #fff;
+    font-size: 14px; 
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .success-details p {
+    margin: 8px 0;
+  }
+
+  .same-typography {
+    font-weight: 700;
+    font-size: 14px; 
+    line-height: 20px;
+  }
+
+  .success-total-box {
+    color: white;
+    border-radius: 8px;
+    padding: 20px 24px;
+    width: 90vw;
+    margin: 0 auto 40px auto;
+    box-sizing: border-box;
+  }
+
+  .success-total-title {
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .success-total-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px; 
+    margin-bottom: 12px;
+  }
+}

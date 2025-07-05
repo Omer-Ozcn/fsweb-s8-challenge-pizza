@@ -43,3 +43,13 @@
   font-size: 14px;
   margin-top: 5px;
 }
+
+@media (max-width: 600px) {
+  .ingredients-list label {
+    flex: 0 1 45%;
+    font-size: 14px;
+    padding: 6px 12px;
+    background-color: #f9f9f9;
+    min-width: auto; 
+  }
+}
