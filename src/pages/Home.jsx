@@ -29,27 +29,27 @@ const Home = () => {
       <section className="menu-section">
         <div className="menu-categories top-categories">
           <div className="category-item">
-            <img src="images/iteration-2-images/icons/1.svg" alt="YENİ! Kore" />
+            <img src="images/iteration-2-images/icons/icons1.svg" alt="YENİ! Kore" />
             <p>YENİ! Kore</p>
           </div>
           <div className="category-item">
-            <img src="images/iteration-2-images/icons/2.svg" alt="Pizza" />
+            <img src="images/iteration-2-images/icons/icons2.svg" alt="Pizza" />
             <p>Pizza</p>
           </div>
           <div className="category-item">
-            <img src="images/iteration-2-images/icons/3.svg" alt="Burger" />
+            <img src="images/iteration-2-images/icons/icons3.svg" alt="Burger" />
             <p>Burger</p>
           </div>
           <div className="category-item">
-            <img src="images/iteration-2-images/icons/4.svg" alt="Kızartmalar" />
+            <img src="images/iteration-2-images/icons/icons4.svg" alt="Kızartmalar" />
             <p>Kızartmalar</p>
           </div>
           <div className="category-item">
-            <img src="images/iteration-2-images/icons/5.svg" alt="Fast food" />
+            <img src="images/iteration-2-images/icons/icons5.svg" alt="Fast food" />
             <p>Fast food</p>
           </div>
           <div className="category-item">
-            <img src="images/iteration-2-images/icons/6.svg" alt="Gazlı içecek" />
+            <img src="images/iteration-2-images/icons/icons6.svg" alt="Gazlı içecek" />
             <p>Gazlı içecek</p>
           </div>
         </div>
@@ -58,7 +58,7 @@ const Home = () => {
           <div
             className="card-overlay"
             style={{
-              backgroundImage: `url(images/iteration-2-images/cta/kart-1.png)`,
+              backgroundImage: `url(images/iteration-2-images/cta/card1.png)`,
             }}
           >
             <div className="card-content">
@@ -72,7 +72,7 @@ const Home = () => {
             <div
               className="card-overlay"
               style={{
-                backgroundImage: `url(images/iteration-2-images/cta/kart-2.png)`,
+                backgroundImage: `url(images/iteration-2-images/cta/card2.png)`,
               }}
             >
               <div className="card-content">
@@ -84,7 +84,7 @@ const Home = () => {
             <div
               className="card-overlay"
               style={{
-                backgroundImage: `url(images/iteration-2-images/cta/kart-3.png)`,
+                backgroundImage: `url(images/iteration-2-images/cta/card3.png)`,
               }}
             >
               <div className="card-content">
@@ -127,7 +127,7 @@ const Home = () => {
 
         <div className="product-list">
           <div className="product-card">
-            <img src="images/iteration-2-images/pictures/food-1.png" alt="Pizza" />
+            <img src="images/iteration-2-images/pictures/food1.png" alt="Pizza" />
             <div className="product-info">
               <p className="product-name">Terminal Pizza</p>
               <p className="product-price">₺85</p>
@@ -135,7 +135,7 @@ const Home = () => {
           </div>
 
           <div className="product-card">
-            <img src="images/iteration-2-images/pictures/food-2.png" alt="Pizza" />
+            <img src="images/iteration-2-images/pictures/food2.png" alt="Pizza" />
             <div className="product-info">
               <p className="product-name">Position Absolute Acılı Pizza</p>
               <p className="product-price">₺95</p>
@@ -143,7 +143,7 @@ const Home = () => {
           </div>
 
           <div className="product-card">
-            <img src="images/iteration-2-images/pictures/food-3.png" alt="Burger" />
+            <img src="images/iteration-2-images/pictures/food3.png" alt="Burger" />
             <div className="product-info">
               <p className="product-name">useEffect Tavuklu Burger</p>
               <p className="product-price">₺105</p>
